@@ -11,6 +11,7 @@ const streamifier = require('streamifier');
 const Counter = require('./models/Counter');
 const Testimonial = require('./models/Testimonial')
 const couponRoutes = require('./routes/Coupon');
+const orderRoutes = require('./routes/Order');
 const newsletterRoutes = require('./routes/newsletterRoutes');
 
 
