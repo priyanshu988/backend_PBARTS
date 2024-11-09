@@ -27,6 +27,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
     .catch(err => console.log(err));
 
 app.use('/api/coupons', couponRoutes);
+app.use('/api/orders', orderRoutes);
 
 // Routes
 app.get('/api/artworks', async (req, res) => {
